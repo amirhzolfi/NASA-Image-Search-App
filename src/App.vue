@@ -30,7 +30,7 @@ export default {
       document.body.style.overflow = 'auto'
       this.showWelcomScreen = false;
       
-    }, 5000);
+    }, 6000);
   }
 }
 </script>

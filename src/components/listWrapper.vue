@@ -1,6 +1,6 @@
 <template>
     <div class="inputWrapper">
-        <input type="text" autofocus v-model="query">
+        <input type="text" autofocus v-model="query" placeholder="search NASA database ...">
     </div>
     <div class="listWrapper">
         <div v-for="item in data" :key="item">
